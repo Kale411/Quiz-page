@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Quiz / Play</title>
+    <link rel ="stylesheet" href ="../css/reset.css"/>
+    <link rel="stylesheet" href="../css/style.css"/>
+</head>
+
+<body>
+<header class="info">
+    <a href="">View high scores</a>
+    <h4>Timer: <span id="timer"></span></h4>
+</header>
+
+<div class="quiz-container">
+    <p class="question"></p>
+    <div class="option-container">
+        <p class="option" id="option1"></p>
+        <p class="option" id="option2"></p>
+        <p class="option" id="option3"></p>
+        <p class="option" id="option4"></p>
+    </div>
+    <div class = "result" data-state="hidden"></div>
+</div>
+<script src="../js/quiz.js"></script>
+</body>
+</html>
